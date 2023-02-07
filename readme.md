@@ -2,7 +2,9 @@
 
 Some simple scripts to convert Zoom transcripts to csv files that are usefully formatted.
 
-To create runnable scripts do this:
+Mac executables are in the "dist" folder. (Double click to unzip.)
+
+To create your own runnable scripts from the source do this:
 
 ```
 pyinstaller --onefile --noconsole process_zoom_folder.py
