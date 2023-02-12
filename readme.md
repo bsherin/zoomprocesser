@@ -11,11 +11,11 @@ If you would rather invoke scripts from the command line you can run `python3 pz
 single file. To process a folder you run this: `python3 pzdir.py <path to folder>`. This will require installing
 dependencies, etc.
 
-If you want to build new executables these are the commands.
+If you want to build new executables, you'll want to execute something like these commands
 
 ```
-pyinstaller --onefile --noconsole process_zoom_folder.py
-pyinstaller --onefile --noconsole process_one_zoom_file.py
+pyinstaller --onefile --noconsole --target-architecture universal2 process_zoom_folder.py
+pyinstaller --onefile --noconsole --target-architecture universal2 process_one_zoom_file.py
 
 ```
 
